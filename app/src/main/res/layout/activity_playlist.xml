@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aya.musicalstructure.PlaylistActivity">
+
+    <TextView
+       style="@style/Labels"
+        android:text="PlayList"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/track1_name_textView"
+            style="@style/PlaylistItem"
+            android:text="Track name" />
+
+        <Button
+            android:id="@+id/playArrow1_button"
+            style="@style/PlayArrow" />
+
+        <Button
+            style="@style/Favorite"
+            android:layout_toLeftOf="@id/playArrow1_button" />
+
+    </RelativeLayout>
+
+    <View style="@style/View" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/track2_name_textView"
+            style="@style/PlaylistItem"
+            android:text="Track name" />
+
+        <Button
+            android:id="@+id/playArrow2_button"
+            style="@style/PlayArrow" />
+
+        <Button
+            style="@style/Favorite"
+            android:layout_toLeftOf="@id/playArrow2_button" />
+
+    </RelativeLayout>
+
+    <View style="@style/View" />
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/track3_name_textView"
+            style="@style/PlaylistItem"
+            android:text="Track name" />
+
+        <Button
+            android:id="@+id/playArrow3_button"
+            style="@style/PlayArrow" />
+
+        <Button
+            style="@style/Favorite"
+            android:layout_toLeftOf="@id/playArrow3_button" />
+
+    </RelativeLayout>
+
+    <View style="@style/View" />
+
+    <TextView
+        style="@style/Description"
+        android:text="@string/playlist_description" />
+
+</LinearLayout>

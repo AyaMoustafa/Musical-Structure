@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context="com.example.aya.musicalstructure.MainActivity">
+
+    <TextView
+       style="@style/Labels"
+        android:text="Main Activity"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/play_list_button"
+        style="@style/MainLayoutsButtons"
+        android:text="Playlist" />
+
+    <Button
+        android:id="@+id/favorites_button"
+        style="@style/MainLayoutsButtons"
+        android:text="Favorite tracks" />
+
+    <Button
+        android:id="@+id/find_track_button"
+        style="@style/MainLayoutsButtons"
+        android:text="Find more tracks" />
+
+    <Button
+        android:id="@+id/buy_button"
+        style="@style/MainLayoutsButtons"
+        android:text="Buy" />
+
+    <TextView
+       style="@style/Description"
+        android:text="@string/main_description"/>
+
+
+</LinearLayout>

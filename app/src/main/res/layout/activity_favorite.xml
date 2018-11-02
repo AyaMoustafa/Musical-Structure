@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aya.musicalstructure.FavoriteActivity">
+
+    <TextView
+       style="@style/Labels"
+        android:text="Favorites"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/track1fav_name_textView"
+            style="@style/PlaylistItem"
+            android:text="Track name" />
+
+        <Button
+            android:id="@+id/playfav1_button"
+            style="@style/PlayArrow" />
+
+    </RelativeLayout>
+
+    <View style="@style/View" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/track2fav_name_textView"
+            style="@style/PlaylistItem"
+            android:text="Track name" />
+
+
+        <Button
+            android:id="@+id/playfav2_button"
+            style="@style/PlayArrow" />
+    </RelativeLayout>
+
+    <View style="@style/View" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/track3fav_name_textView"
+            style="@style/PlaylistItem"
+            android:text="Track name" />
+
+        <Button
+            android:id="@+id/playfav3_button"
+            style="@style/PlayArrow" />
+    </RelativeLayout>
+
+    <View style="@style/View" />
+
+    <TextView
+        style="@style/Description"
+        android:text="@string/favorites_description" />
+</LinearLayout>

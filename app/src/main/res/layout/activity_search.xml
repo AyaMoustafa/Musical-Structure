@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aya.musicalstructure.SearchActivity">
+
+    <TextView
+        style="@style/Labels"
+        android:text="Search"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/ic_search_black_24dp" />
+
+        <EditText
+            android:id="@+id/search_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:hint="Enter track name ..."
+            android:inputType="text" />
+
+    </LinearLayout>
+
+
+    <TextView
+        style="@style/PlaylistItem"
+        android:text="Search results"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/result1_textView"
+            style="@style/PlaylistItem"
+            android:text="Track name" />
+
+        <Button
+            android:id="@+id/playresult1_button"
+            style="@style/PlayArrow" />
+
+        <Button
+            style="@style/Download"
+            android:layout_toLeftOf="@id/playresult1_button" />
+
+
+    </RelativeLayout>
+
+    <View style="@style/View" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/result2_textView"
+            style="@style/PlaylistItem"
+            android:text="Track name" />
+
+        <Button
+            android:id="@+id/playresult2_button"
+            style="@style/PlayArrow" />
+
+        <Button
+            style="@style/Download"
+            android:layout_toLeftOf="@id/playresult2_button" />
+
+
+    </RelativeLayout>
+
+    <View style="@style/View" />
+
+    <TextView
+        style="@style/Description"
+        android:text="@string/search_description" />
+
+
+</LinearLayout>

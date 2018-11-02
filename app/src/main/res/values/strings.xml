@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Musica</string>
+    <string name="main_description">This activity is used to show up the content of the app and to help the user launching any of the activities. </string>
+    <string name="playlist_description">This activity used to either add specific track to play now activity by play button or add it to favorites by favorite button ,This activity can be performed by using ListView , CardView and ArrayAdapter. </string>
+    <string name="search_description">This activity used to search for tracks and then from results you can either download them to your playlist or just play them using AudioManager and MediaPlayer classes. </string>
+    <string name="favorites_description">This activity used to play favorite sound tracks through play now activity by clicking play arrow button, This activity can be performed by using CardView , ListView and array adapter.</string>
+    <string name="payment_description">This activity used to buy new music tracks through play store , it can be applied by using google music api.</string>
+    <string name="playNow_description">This activity used to play sound tracks by using MediaPlayer class and AudioManager class , The images at the bottom used to replay, add to favorite, skip to previous, play, skip to next and return to playlist by using OnClickListener.</string>
+</resources>
